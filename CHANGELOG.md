@@ -9,4 +9,4 @@ Fixes:
 Features:
 
  - Initial realease of blink program
- - Added workflow to automatically generate uf2 binary on each release
+ - Added workflow to automatically generate .uf2 binary on each release
