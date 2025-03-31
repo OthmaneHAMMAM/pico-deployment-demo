@@ -2,13 +2,13 @@ name: Deploy new version
 
 #Only deploy when a new tag is pushed
 on:
-   push:
-     tags:
-       - "v*.*.*"
+  push:
+    tags:
+      - "v*.*.*"
 			  
 # Must match the project() name in CMakeLists.txt
 env:
-    APP_NAME: blink
+   APP_NAME: blink
 	
 #Allow this workflow to write back to the repository
 permissions: 
