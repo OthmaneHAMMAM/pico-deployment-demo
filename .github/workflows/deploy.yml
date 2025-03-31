@@ -1,10 +1,9 @@
 name: Deploy new version
 
 #Only deploy when a new tag is pushed
-on:
-  push:
-    tags:
-      - "v*.*.*"
+on: [push]
+  tags:
+    - "v*.*.*"
 			  
 # Must match the project() name in CMakeLists.txt
 env:
@@ -13,6 +12,7 @@ env:
 #Allow this workflow to write back to the repository
 permissions: 
     contents: write 
+    
 
 #Build binary and send to releases 
 jobs:
