@@ -1,3 +1,3 @@
-##README file containt
+##README file content
 
-Containt..
+Content..
